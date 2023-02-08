@@ -1,5 +1,25 @@
 "use strict";
 
+
+// Récupèrer le préom du visiteur
+//const prenom = prompt("Quel est ton prénom ? ");
+//alert("bienvenue " + prenom);
+
+// Ex transformer degres en ferenheit
+let temperature = prompt("Entrer la température en degré celsius ? ");
+
+if (isNaN(temperature)) {
+    //alert("La variable n'est pas un nombre !");
+}
+
+let temperature2 = ((temperature * 9) / 5) + 32;
+
+alert("La température en degrés farenheint est de  " + temperature2);
+
+
+
+
+
 // alert("Bonjour le monde");
 
 // afficher un contenu ou uen variable dans la console
